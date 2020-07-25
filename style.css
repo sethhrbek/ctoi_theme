@@ -1,9 +1,30 @@
 /*
-Theme Name: WP Tailwind CSS Theme Boilerplate
-Theme URI: https://github.com/mishterk/wp-tailwindcss-theme-boilerplate
-Author: Phil Kurth
-Author URI: http://philkurth.com.au
-Description: A minimalistic boilerplate for WordPress theme development using Tailwind CSS
+Theme Name: C2I Super Theme
+Theme URI: https://github.com/sethhrbek/ctoi_theme
+Author: Seth Hrbek
+Author URI: http://github.com/sethhrbek
+Description: C2I Theme Using Tailwind CSS
 Version: 1.0
-Text Domain: wp-tailwind-css-theme-boilerplate
+Text Domain: ctoi_theme
 */
+
+.menu {
+    height:74px;
+    padding: 0;
+}
+
+.hero {
+    height: 860px;
+}
+
+.hero:after {
+    content: '';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.2);
+}
+
+.background-home {
+    background: url(assets/img/homepage_bg.png) no-repeat top center;
+}
